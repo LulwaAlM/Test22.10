@@ -98,3 +98,10 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+.logo {
+  max-width: 200px;  /* Adjust size */
+  height: auto;      /* Keep aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center it */
+}
