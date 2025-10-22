@@ -151,6 +151,13 @@ form button {
   border-radius: 4px;
 }
 
+.banner img {
+  width: 100%;       /* Make banner full width */
+  height: auto;      /* Keep aspect ratio */
+  display: block;    /* Remove extra space below image */
+  border-radius: 8px; /* Optional rounded corners */
+}
+
 form button:hover {
   background: #0056b3;
 }
