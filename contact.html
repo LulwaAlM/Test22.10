@@ -9,8 +9,9 @@
 <body>
 
   <header>
+    <img src="assets1/logo.png" alt="Company Logo" class="logo-img">
     <nav>
-      <a href="index.html" class="logo">MySite</a>
+      <a href="index.html" class="logo-text">MySite</a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
@@ -20,14 +21,17 @@
   </header>
 
   <section class="contact">
-    <h1>Contact Us</h1>
+    <h2>Contact Us</h2>
     <form>
-      <label>Name:</label>
-      <input type="text" required>
-      <label>Email:</label>
-      <input type="email" required>
-      <label>Message:</label>
-      <textarea rows="5" required></textarea>
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+
       <button type="submit">Send</button>
     </form>
   </section>
